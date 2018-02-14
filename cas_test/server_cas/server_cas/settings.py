@@ -121,3 +121,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 SESSION_COOKIE_NAME = 'sessionid_server_cas'
+
+MAMA_CAS_ENABLE_SINGLE_SIGN_OUT = True
