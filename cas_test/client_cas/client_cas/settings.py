@@ -134,3 +134,6 @@ CAS_SERVER_URL = "http://127.0.0.1:8000/"
 # CAS_LOGGED_MSG = "Bro, you're totally logged in already"
 
 SESSION_COOKIE_NAME = 'sessionid_client_cas'
+
+CAS_LOGOUT_COMPLETELY = True
+CAS_VERSION = '3'

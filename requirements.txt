@@ -4,6 +4,7 @@ Django==1.11
 django-cas-ng==3.5.8
 django-mama-cas==2.3.0
 idna==2.6
+lxml==4.1.1
 python-cas==1.2.0
 pytz==2017.3
 requests==2.18.4
