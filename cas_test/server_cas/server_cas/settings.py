@@ -123,3 +123,14 @@ STATIC_URL = '/static/'
 SESSION_COOKIE_NAME = 'sessionid_server_cas'
 
 MAMA_CAS_ENABLE_SINGLE_SIGN_OUT = True
+
+MAMA_CAS_SERVICES = [
+    {
+        'SERVICE': '^http://127\.0\.0\.1:8001',
+        'LOGOUT_ALLOW': True,
+    },
+    {
+        'SERVICE': '^http://127\.0\.0\.1:8002',
+        'LOGOUT_ALLOW': True,
+    }
+]
